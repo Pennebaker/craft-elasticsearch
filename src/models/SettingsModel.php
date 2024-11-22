@@ -38,6 +38,9 @@ class SettingsModel extends Model
      */
     public $indexNamePrefix;
 
+    /** @var string|null A comma-separated list of asset kinds to index */
+    public $assetKinds = null;
+
     /** @var array A list of handles of entries types that should not be indexed */
     public $blacklistedEntryTypes = [];
 

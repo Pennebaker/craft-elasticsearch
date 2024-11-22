@@ -34,6 +34,7 @@ return [
         'post_tags' => '</strong>',
     ],
 
+    'assetKinds' => null, // 'pdf', 'image', 'video', 'audio'
     'blacklistedEntryTypes' => [],
     'blacklistedAssetVolumes' => [],
 
