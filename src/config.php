@@ -34,6 +34,7 @@ return [
         'post_tags' => '</strong>',
     ],
 
+    'assetKinds' => ['pdf'],
     'blacklistedEntryTypes' => [],
     'blacklistedAssetVolumes' => [],
 

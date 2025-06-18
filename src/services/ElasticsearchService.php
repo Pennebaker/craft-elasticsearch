@@ -391,7 +391,7 @@ class ElasticsearchService extends Component
         return Asset::find()
             ->status(Asset::STATUS_ENABLED)
             ->siteId($siteId)
-            ->kind('pdf')
+            ->kind($this->plugin->getSettings()->assetKinds)
             ->volume(ArrayHelper::merge(['not'], $this->plugin->getSettings()->blacklistedAssetVolumes));
     }
 
